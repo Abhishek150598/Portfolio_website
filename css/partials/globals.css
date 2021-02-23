@@ -1,0 +1,59 @@
+/* Global Classes */ 
+
+
+/* Buttons */ 
+
+.button{
+    padding: .6rem 1rem;
+    font: normal 500 14px/10px var(--pacifico);
+    position: relative;
+    border-radius: 6px;
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+p.para {
+    font: normal 500 16px/25px var(--pacifico);
+}
+
+.section-title {
+    font: normal 500 30px var(--comfortaa);
+    text-shadow: var(--shadow-color);
+    color: var(--title-color-1);
+    padding-bottom: 1.5rem;
+}
+
+.site-main {
+    padding: 1rem 2rem;
+    
+}
+
+body {
+    background: url('./../../img/background.jpeg') no-repeat;
+    background-size: cover;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.info-card {
+    background-color: var(--box-color);
+    border-radius: 10px;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+}

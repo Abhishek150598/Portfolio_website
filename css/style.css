@@ -1,0 +1,153 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* Import CSS variables */
+@import url(./partials/variables.css);
+
+/* Import global classes */
+@import url(./partials/globals.css);
+
+/* Start header */
+
+.header_area .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .navbar .navbar-brand img {
+    height: 3rem;
+    width: 5rem;
+}
+
+.header_area .navbar {
+    padding: 0.5rem 4rem;
+    opacity: 0.8;
+}
+
+.header_area .nav-item .nav-link {
+    font-family: var(--pacifico);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 1.5rem 0 1.5rem;
+    color: var(--title-color-2);
+}
+
+.header_area .nav-item:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* End header */
+
+/* Start banner */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.site-main .site-banner .site-title h1 > span{
+    background-color: var(--tag-color);
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.site-main .site-banner .banner-image img{
+    padding: 4rem 3rem;
+}
+/* End banner */
+
+/* Start About */
+.site-main .about-area p{
+    padding: 1em;
+    color: var(--text-color-1);
+    text-shadow: var(--shadow-color);
+}
+/* End About */
+
+/*Start experience area*/
+
+.site-main .experience-area .row img{
+    padding: 1em;
+}
+
+.site-main .experience-area .row .about-experience h2{
+    font-weight: 500;
+    font-family: var(--comfortaa);
+    padding-top: 0.5rem;
+}
+
+.site-main .experience-area .row .about-experience p{
+    color: var(--text-color-2);
+    margin-top: 1rem;
+}
+
+/*End experience area*/
+
+/*Start projects area*/
+
+.site-main .projects-area .row img{
+    border-radius: 10px;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.site-main .projects-area .row .tags > span {
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    background-color: var(--tag-color);
+    margin-top: 1rem;
+}
+
+.site-main .projects-area .row .about-project h2{
+    font-weight: 500;
+    font-family: var(--comfortaa);
+    padding-top: 0.5rem;
+}
+
+.site-main .projects-area .row .about-project p{
+    color: var(--text-color-2);
+    margin-top: 1rem;
+}
+
+.site-main .projects-area .row .about-project .github-link{
+    margin-top: 1.5rem;
+}
+
+.site-main .projects-area .row .about-project .github-link i{
+    font-size: 2rem;
+}
+
+/* End projects area */
+
+/* Contacts area */
+
+.contact-area .form-control {
+    margin: 1rem 0rem;
+}
+
+.contact-area .contact-image img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
+.footer-area .social h5 {
+    font-weight: 500;
+    font-family: var(--comfortaa);
+}
+
+.footer-area .social i {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
