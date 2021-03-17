@@ -41,12 +41,16 @@ p.para {
 }
 
 body {
-    background: url('./../../img/background.jpeg') no-repeat;
+    background: url('./../../img/background.jpeg') no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 section {
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .info-card {
@@ -56,4 +60,25 @@ section {
     box-shadow: var(--box-shadow);
     margin: 1rem 0rem;
     padding: 1rem 0rem;
+}
+
+@media only screen and (orientation: portrait){
+    body {
+        background: url('./../../img/background.jpeg') no-repeat center bottom fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+   
+
+}
+
+@media only screen and (orientation: landscape){
+    .header_area .navbar-fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+   
 }

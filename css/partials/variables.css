@@ -16,7 +16,7 @@ html, body {
     --text-color-2: #5b616b;
     --border-color: #201f1f17;
     --gradient-color: linear-gradient(90deg, #00bf46 0%, #006124 100%);
-    --shadow-color:  2px 2px 0px rgba(0, 0, 0, 0.6);
+    --shadow-color:  1px 1px 0px rgba(0, 0, 0, 0.6);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     --pacifico: "Pacifico", cursive;
     --comfortaa: "Comfortaa", cursive;
